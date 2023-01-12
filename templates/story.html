@@ -4,4 +4,12 @@
 
 {% block content %}
 <h1>Your Story</h1>
+
+{% for prompt in prompts_list %}
+<p>{{prompt}}</p>
+{%endfor%}
+
+
+<p>{{template}}</p>
+
 {% endblock %}
